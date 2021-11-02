@@ -1,0 +1,27 @@
+.stats-container{
+    background-image: url(../images/background2.png);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .stats-container .heading{
+    background-color: rgba(var(--color-main-1-rgb),0.7);
+  }
+  .stats-container .stat-content{
+    display: inline-block;
+    background-color: rgba(var(--color-main-1-rgb),0.7);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+  }
+  .stats-container .stat-image img{
+    width: 200px;
+    height: 200px;
+  }
+  .stats-container .stat-title{
+    font-size:25px;
+    color: var(--color-main-4);
+  }
+  .stat-content:hover{
+    transform: scale(1.05);
+  }

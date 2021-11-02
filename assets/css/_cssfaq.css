@@ -1,0 +1,79 @@
+.faq-section .heading {
+  background-color: rgba(var(--color-main-3-rgb), 0.2);
+}
+
+.faq-section {
+  background-image: url(../images/tile-faq.png);
+  background-repeat: repeat;
+}
+
+.faq-section .right-side {
+  background-color: rgba(var(--color-main-3-rgb), 0.2);
+  padding: 80px;
+}
+.faq-section .right-side li {
+  background-color: rgba(var(--color-main-3-rgb), 0.5);
+  list-style: none;
+  box-shadow: 0 0 6px -3px var(--color-main-3);
+}
+.faq-section .right-side li i {
+  font-size: 30px;
+  vertical-align: middle;
+  color: var(--color-main-7);
+  margin: 10px;
+}
+
+.faq-section .left-side {
+  background-color: var(--color-main-2);
+  padding: 72px 10px 10px 10px;
+
+  min-height: 312px;
+}
+.faq-section .left-side .tab {
+  box-shadow: 0 0 7px -2px rgba(var(--color-main-1-rgb), 0.5);
+}
+.faq-section .left-side .tab input {
+  display: none;
+}
+.faq-section .left-side .tab label {
+  display: block;
+  background-color: var(--color-main-7);
+  padding: 5px 10px;
+  transition: 0.5s ease;
+}
+.faq-section .left-side .tab label::after {
+  content: "\276f";
+  float: left;
+  transition: 0.5s ease;
+}
+.faq-section .left-side .tab .tab-text {
+  overflow-y: scroll;
+  max-height: 0;
+  background-color: var(--color-main-1);
+  text-align: justify;
+  transition: 0.5s ease;
+}
+.faq-section .left-side .tab .tab-text::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(var(--color-main-1-rgb), 0.7);
+}
+.faq-section .left-side .tab .tab-text::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: rgba(var(--color-main-7-rgb), 0.5);
+  border-radius: 5px;
+}
+.faq-section .left-side .tabs input:checked ~ .tab-text {
+  max-height: 100px;
+  padding: 5px 10px;
+}
+.faq-section .left-side .tabs input:checked ~ label {
+  background-color: rgba(var(--color-main-7-rgb), 0.7);
+}
+.faq-section .left-side .tab:hover label {
+  background-color: rgba(var(--color-main-7-rgb), 0.7);
+  box-shadow: 0 0 7px -2px rgba(var(--color-main-3-rgb), 0.5);
+}
+
+.faq-section .left-side .tabs input:checked ~ label::after {
+  transform: rotate(-90deg);
+}

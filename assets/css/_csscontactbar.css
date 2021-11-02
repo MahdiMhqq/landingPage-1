@@ -1,0 +1,32 @@
+/* start contact bar style */
+.contact-fluid{
+    height: 60px;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  .contact-fluid a{
+    margin:0;
+    padding: 17px 10px;
+    color: var(--color-main-4);
+    vertical-align: -10px;
+    background-color: var(--color-main-2);
+    transition: all 250ms;
+    font-family: 'Roboto', sans-serif;
+  }
+  .contact-fluid a i{
+    padding: 5px;
+    color: var(--color-main-5);
+    vertical-align: -1px;
+  }
+  .contact-fluid a:hover{
+    background-color: var(--color-main-6);
+  }
+  .contact-fluid .socialmedia a{
+    display:inline-block;
+    text-align: center;
+    width:60px;
+  }
+  .contact-fluid .socialmedia{
+    direction: ltr;
+  }
+  /* end contact bar style */

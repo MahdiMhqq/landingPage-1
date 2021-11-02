@@ -1,0 +1,74 @@
+.footer-section {
+    background-color: var(--color-main-2);
+  }
+  .footer-section .about-us,
+  .useful-links,
+  .contact-us {
+    padding: 10px;
+  }
+  .footer-section .about-us h5 i,
+  .useful-links h5 i,
+  .useful-links ul li i,
+  .contact-us h5 i,
+  .contact-us ul li i {
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  .footer-section .about-us h5,
+  .useful-links h5,
+  .contact-us h5 {
+    color: var(--color-main-7);
+    font-size: 22px;
+    border-bottom: 1px solid rgba(var(--color-main-7-rgb), 0.5);
+  }
+  .footer-section .about-us p,
+  .useful-links ul,
+  .contact-us ul {
+    text-align: justify;
+    margin-top: 25px;
+  }
+  .footer-section .useful-links ul li,
+  .contact-us ul li {
+    list-style: none;
+    transition: 0.5s ease;
+  }
+  
+  .footer-section .useful-links ul a:hover li {
+    color: var(--color-main-7);
+    padding-right: 20px;
+  }
+  .footer-section .contact-us ul a:hover li.phone,
+  ul a:hover li.mail {
+    color: var(--color-main-7);
+  }
+  .footer-section .contact-us ul li.mail {
+    font-family: verdana;
+  }
+  .footer-section .contact-us form {
+    margin-top: 20px;
+  }
+  .footer-section .contact-us input[type="mail"] {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  .footer-section .contact-us input[type="submit"] {
+    background-color: rgba(var(--color-main-7-rgb), 0.5);
+    border: none;
+    outline: none;
+    padding: 12px;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease;
+    cursor:pointer;
+  }
+  .footer-section .contact-us input[type="submit"]:hover {
+    background-color: var(--color-main-5);
+  }
+  .footer-section .copy-right{
+    padding: 5px;
+    background-color: var(--color-main-1);
+    text-align: center;
+    font-size: 16px;
+    border-top: 1px solid rgba(var(--color-main-7-rgb), 0.8)
+  }
